@@ -35,11 +35,17 @@ main {
 
 .left {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
     width: 40%;
     padding: 40px;
     border-radius: 10px;
     background-color: #84596b63;
+}
+
+.left p {
+    font-size: 16px;
 }
 
 .right {
