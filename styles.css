@@ -11,6 +11,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#ffeaea;
 }
 
 .container {
@@ -37,10 +38,12 @@ main {
     align-items: center;
     width: 40%;
     padding: 40px;
+    border-radius: 10px;
     background-color: #84596b63;
 }
 
 .right {
+    border-radius: 10px;
     background-color: #492031c9;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
